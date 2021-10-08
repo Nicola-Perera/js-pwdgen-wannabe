@@ -2,6 +2,9 @@
 in base ai dati inseriti dall'utente*/
 alert('Banvenuto/a! inserisci i dati richiesti e premi OK per creare una nuova password')
 
+//anno corrente
+const actualYear = 21;
+
 //user name request
 let userFirstName = prompt('Scrivi il tuo nome');
 console.log(userFirstName);
@@ -14,4 +17,5 @@ console.log(userSurname);
 let userFavColor = prompt('Scrivi il tuo colore preferito');
 console.log(userFavColor);
 
-document.getElementById(pass).innerHTML = userFirstName + userSurname + userFavColor
+document.writeln(userFirstName + userSurname + userFavColor + actualYear);
+document.getElementById(pass).innerHTML = userFirstName + userSurname + userFavColor + actualYear;
