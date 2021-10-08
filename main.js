@@ -17,5 +17,7 @@ console.log(userSurname);
 let userFavColor = prompt('Scrivi il tuo colore preferito');
 console.log(userFavColor);
 
-document.writeln(userFirstName + userSurname + userFavColor + actualYear);
-document.getElementById(pass).innerHTML = userFirstName + userSurname + userFavColor + actualYear;
+document.writeln('Ecco la tua nuova password')
+
+document.writeln('Grazie, a presto!')
+document.getElementById('pass').innerHTML = userFirstName + userSurname + userFavColor + actualYear;
